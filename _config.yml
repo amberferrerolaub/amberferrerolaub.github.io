@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
+title: Amber Ferrero Laub
 twitter_username: rob_hinds
-name: Rob Hinds
+name: Amber Ferrero Laub
 
 # Build settings
 markdown: kramdown
@@ -9,60 +9,47 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: http://automateddeveloper.blogspot.com/
- - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://www.linkedin.com/in/amberferrerolaub/
 
 #Any buzzword skills you want to include
 skills:
- - Scala
- - Akka-http
- - Microservices
- - Slick
- - Product management
- - API design
- - Groovy
- - Spring MVC/Boot/Social
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
- - Technical Architecture
- - Machine learning
-
-#Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+ - Customer Support
+ - Customer Success
+ - Account Management
+ - Project Management
+ - Onboarding
+ - Training
 
 #Work experience is required
 roles:
- - title: CTO
-   start: 2017
-   end: Ongoing
-   employer: Basement Crowd
-   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
- - title: Senior Engineer
+ - title: Customer Happiness Specialist
    start: 2016
-   end: 2017
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
+   end: Ongoing
+   employer: TheraNest
+   description: Responsible for onboarding, educating and supporting customers from pre-trial inquiries to subscription and beyond through chat, remote training sessions and phone calls. Guides users through initial setup and features and consults on workflows best suited to their specific needs.
+
+Acts as the customer's liaison with the product team to pass on bug reports, unique use cases and challenges they are experiencing. Reports on support trends to assist with the planning of future product iterations.
+
+Champions customer success by building relationships and assisting with EHR/EMR data migration projects. Nurtures large, at-risk and detractor customers. Works with existing customers to ensure retention and seamless internal transfers.
+
+Manages support resources by writing and updating knowledge base articles, saved replies and internal support processes. Contributes to the TheraNest Facebook community. 
+
+- title: Project Manager
+   start: 2014
    end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> Working as a senior engineer, I worked closely with the CTO and across the full-stack, I was involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: Working on a range of functional and technical roles, primarily working on client sites in Financial Services in London and Europe.
+   employer: Entermotion / Paste Interactive
+   description: Managed studio design and web application development projects to ensure they were on track and on budget by prioritizing deliverables and handling the details for my team. Ensured constant communication with clients and a distributed team of designers and developers throughout multiple time zones. Provided email and phone support to assist with issues related to custom client web applications and our own SaaS products: Atlas.md, jumpchart and staction. Handled questions related to client email setup, billing and new project sales all while ensuring an exceptional customer experience.
+ - title: Project Manager/Account Executive
+   start: 2013
+   end: 2014
+   employer: First Page Sage
+   description: Managed SEO campaigns and web design projects for multiple clients in a remote working environment. Collaborated with internal technical team, writing team and agency executives to best serve the needs of clients and ultimately drive web traffic. Acted as an advocate to ensure clients' goals and expectations were communicated clearly to the internal team. Ensured consistent client contact to relay campaign progress.
+ - title: Assistant Account Executive
+   start: 2010
+   end: 2013
+   employer: SK+G
+   description: Coordinated the day-to-day operations and management of interactive accounts and their related web development and digital marketing projects. Served as a main contact for clients and coordinated between them and departments within the agency. Managed client expectations with regard to creative strategy executions and project timelines for initiatives. Ensured that agency jobs were opened accurately and on time and monitored work from inception to completion. Proofread all web and print client deliverables. Assisted with execution of media plans. Responsible for client website updates using content management systems. Worked closely with web development team to ensure client websites were running smoothly and issues were quickly resolved. Google Analytics reporting for interactive clients. Worked closely with interactive media team to ensure SEO of client websites and management of interactive media campaigns. Reviewed and reconciled client invoices for billing.
 
 #Education is required
 education:
@@ -71,53 +58,7 @@ education:
    subject: Artificial Intelligence and Computer Science
    school: University of Birmingham
 
-#This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/specializations/algorithms
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
-
-#This section is optional - embeds slideshows from speakerdeck
-# to get the speakerdeck ID copy the embed code and look for the data-it attribute
-speakerdeck:
-   profileurl: https://speakerdeck.com/robhinds
-   talks:
-    - title: Product Management for Engineers
-      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
-      conference: API Conference, Berlin 2018
-    - title: Agile Machine Learning - from Theory to Production
-      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
-      conference: W-JAX Conference, Munich 2017 (London 2017)
-
-#List of interesting Github repo/projects to include - optional
-github:
- - robhinds/robhinds.github.io
- - robhinds/ScaLambda
- - robhinds/opinionated-akka-http
- - robhinds/food2vec
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/genotype
- - robhinds/footweets
- - robhinds/ElasticSearchGradle
-
-#Stackoverflow flair is optional
-stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
-
-intro: |
-  I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
-  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code (having worked across differing languages on the JVM, I recognise that good code is contextual).<br/><br/>
-  I have worked in large scale consultancy roles across Europe as well as a mix of startup experience (including one that was acquired) and I am currently the Chief Technology Officer at a legal-tech startup called <a href="https://www.basementcrowd.com" target="_blank">Basement Crowd</a> where we are building innovative products to serve the legal industry.
+intro: Compassionate customer advocate and product specialist who loves teaching and problem solving. I specialize in helping customers understand software and processes, building relationships, and working with my team to improve user experience.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
